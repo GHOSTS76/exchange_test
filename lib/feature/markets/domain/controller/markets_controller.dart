@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class MarketsController extends GetxController with GetSingleTickerProviderStateMixin{
+  ScrollController scrollController = ScrollController();
   late TabController tabController;
   RxInt activePage = 1.obs;
   RxInt tabIndex = 0.obs;

@@ -37,9 +37,9 @@ class CoinItemsWidget extends StatelessWidget {
                         children: [
                           /// Coin Title
                           Column(
-                              children: const [
+                              children: [
                                 // BTC/USDT
-                                Text(
+                                const Text(
                                   'BTC/USDT',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
@@ -51,16 +51,21 @@ class CoinItemsWidget extends StatelessWidget {
                                 ),
 
                                 // Vol. 355.63M
-                                Text(
-                                  'Vol. 355.63M',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
-                                    fontFamily: AppStyles.iranSansMobileFontFamily,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: const [
+                                    Text(
+                                      'Vol. 355.63M',
+                                      textAlign: TextAlign.left,
+                                      style: TextStyle(
+                                        color: AppColors.unSelected,
+                                        fontWeight: AppStyles.textWeightBold,
+                                        fontFamily: AppStyles.iranSansMobileFontFamily,
+                                        fontSize: 14,
+                                      ),
+                                    ),
+                                    SizedBox(width: 30),
+                                  ]),
                               ]),
 
                           /// Space
@@ -135,9 +140,9 @@ class CoinItemsWidget extends StatelessWidget {
                         children: [
                           /// Coin Title
                           Column(
-                              children: const [
+                              children: [
                                 // ETH/USDT
-                                Text(
+                                const Text(
                                   'ETH/USDT',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
@@ -149,16 +154,21 @@ class CoinItemsWidget extends StatelessWidget {
                                 ),
 
                                 // Vol. 355.63M
-                                Text(
-                                  'Vol. 355.63M',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
-                                    fontFamily: AppStyles.iranSansMobileFontFamily,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                                Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: const [
+                                      Text(
+                                        'Vol. 355.63M',
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                          color: AppColors.unSelected,
+                                          fontWeight: AppStyles.textWeightBold,
+                                          fontFamily: AppStyles.iranSansMobileFontFamily,
+                                          fontSize: 14,
+                                        ),
+                                      ),
+                                      SizedBox(width: 30),
+                                    ]),
                               ]),
 
                           /// Space
@@ -170,9 +180,9 @@ class CoinItemsWidget extends StatelessWidget {
                           Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: const [
-                                /// 14,257.09
+                                /// 1,834.25
                                 Text(
-                                  '14,257.09',
+                                  '1,834.25',
                                   style: TextStyle(
                                     color: AppColors.black,
                                     fontWeight: AppStyles.textWeightBold,
@@ -187,7 +197,7 @@ class CoinItemsWidget extends StatelessWidget {
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
+                                    fontWeight: AppStyles.textWeightBold,
                                     fontFamily: AppStyles.iranSansMobileFontFamily,
                                     fontSize: 14,
                                   ),
@@ -233,9 +243,9 @@ class CoinItemsWidget extends StatelessWidget {
                         children: [
                           /// Coin Title
                           Column(
-                              children: const [
+                              children: [
                                 // BNB/USDT
-                                Text(
+                                const Text(
                                   'BNB/USDT',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
@@ -247,16 +257,21 @@ class CoinItemsWidget extends StatelessWidget {
                                 ),
 
                                 // Vol. 355.63M
-                                Text(
-                                  'Vol. 355.63M',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
-                                    fontFamily: AppStyles.iranSansMobileFontFamily,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                                Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: const [
+                                      Text(
+                                        'Vol. 355.63M',
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                          color: AppColors.unSelected,
+                                          fontWeight: AppStyles.textWeightBold,
+                                          fontFamily: AppStyles.iranSansMobileFontFamily,
+                                          fontSize: 14,
+                                        ),
+                                      ),
+                                      SizedBox(width: 30),
+                                    ]),
                               ]),
 
                           /// Space
@@ -285,7 +300,7 @@ class CoinItemsWidget extends StatelessWidget {
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
+                                    fontWeight: AppStyles.textWeightBold,
                                     fontFamily: AppStyles.iranSansMobileFontFamily,
                                     fontSize: 14,
                                   ),
@@ -331,9 +346,9 @@ class CoinItemsWidget extends StatelessWidget {
                         children: [
                           /// Coin Title
                           Column(
-                              children: const [
+                              children: [
                                 // CRV/USDT
-                                Text(
+                                const Text(
                                   'CRV/USDT',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
@@ -345,16 +360,21 @@ class CoinItemsWidget extends StatelessWidget {
                                 ),
 
                                 // Vol. 355.63M
-                                Text(
-                                  'Vol. 355.63M',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
-                                    fontFamily: AppStyles.iranSansMobileFontFamily,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                                Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: const [
+                                      Text(
+                                        'Vol. 355.63M',
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                          color: AppColors.unSelected,
+                                          fontWeight: AppStyles.textWeightBold,
+                                          fontFamily: AppStyles.iranSansMobileFontFamily,
+                                          fontSize: 14,
+                                        ),
+                                      ),
+                                      SizedBox(width: 30),
+                                    ]),
                               ]),
 
                           /// Space
@@ -383,7 +403,7 @@ class CoinItemsWidget extends StatelessWidget {
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
+                                    fontWeight: AppStyles.textWeightBold,
                                     fontFamily: AppStyles.iranSansMobileFontFamily,
                                     fontSize: 14,
                                   ),
@@ -429,9 +449,9 @@ class CoinItemsWidget extends StatelessWidget {
                         children: [
                           /// Coin Title
                           Column(
-                              children: const [
+                              children: [
                                 // XRP/USDT
-                                Text(
+                                const Text(
                                   'XRP/USDT',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
@@ -443,16 +463,21 @@ class CoinItemsWidget extends StatelessWidget {
                                 ),
 
                                 // Vol. 355.63M
-                                Text(
-                                  'Vol. 355.63M',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
-                                    fontFamily: AppStyles.iranSansMobileFontFamily,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                                Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: const [
+                                      Text(
+                                        'Vol. 355.63M',
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                          color: AppColors.unSelected,
+                                          fontWeight: AppStyles.textWeightBold,
+                                          fontFamily: AppStyles.iranSansMobileFontFamily,
+                                          fontSize: 14,
+                                        ),
+                                      ),
+                                      SizedBox(width: 30),
+                                    ]),
                               ]),
 
                           /// Space
@@ -527,9 +552,9 @@ class CoinItemsWidget extends StatelessWidget {
                         children: [
                           /// Coin Title
                           Column(
-                              children: const [
+                              children: [
                                 // SOL/USDT
-                                Text(
+                                const Text(
                                   'SOL/USDT',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
@@ -541,16 +566,21 @@ class CoinItemsWidget extends StatelessWidget {
                                 ),
 
                                 // Vol. 355.63M
-                                Text(
-                                  'Vol. 355.63M',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    color: AppColors.unSelected,
-                                    fontWeight: AppStyles.textWeightNormal,
-                                    fontFamily: AppStyles.iranSansMobileFontFamily,
-                                    fontSize: 14,
-                                  ),
-                                ),
+                                Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: const [
+                                      Text(
+                                        'Vol. 355.63M',
+                                        textAlign: TextAlign.left,
+                                        style: TextStyle(
+                                          color: AppColors.unSelected,
+                                          fontWeight: AppStyles.textWeightBold,
+                                          fontFamily: AppStyles.iranSansMobileFontFamily,
+                                          fontSize: 14,
+                                        ),
+                                      ),
+                                      SizedBox(width: 30),
+                                    ]),
                               ]),
 
                           /// Space

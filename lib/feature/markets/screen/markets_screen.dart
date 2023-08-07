@@ -209,7 +209,7 @@ class MarketsScreen extends GetView<MarketsController> {
                 return controller.tabIndex.value == 0 ?
                 CoinItemsWidget(function: ()=> '', itemCount: 20) :
                 controller.tabIndex.value == 1 ?
-                CoinItemsWidget(function: ()=> '', itemCount: 7) :
+                CoinItemsWidget(function: ()=> '', itemCount: 2) :
                 controller.tabIndex.value == 2 ?
                 CoinItemsWidget(function: ()=> '', itemCount: 1) : const Text('');
               }),

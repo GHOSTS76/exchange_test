@@ -17,6 +17,8 @@ class HeaderTabViewWidget extends StatefulWidget {
 }
 
 class _HeaderTabViewWidgetState extends State<HeaderTabViewWidget> {
+  ScrollController scrollController = ScrollController();
+
   @override
   void initState() {
     super.initState();
@@ -24,6 +26,7 @@ class _HeaderTabViewWidgetState extends State<HeaderTabViewWidget> {
 
   void onTapItem(final int index) {
     widget.widgetSelected(index);
+    scrollController.jumpTo(scrollController.position.maxScrollExtent);
     setState(() {});
   }
 
