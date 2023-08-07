@@ -26,7 +26,7 @@ class _HeaderTabViewWidgetState extends State<HeaderTabViewWidget> {
 
   void onTapItem(final int index) {
     widget.widgetSelected(index);
-    scrollController.jumpTo(scrollController.position.maxScrollExtent);
+    //scrollController.jumpTo(scrollController.position.maxScrollExtent);
     setState(() {});
   }
 
